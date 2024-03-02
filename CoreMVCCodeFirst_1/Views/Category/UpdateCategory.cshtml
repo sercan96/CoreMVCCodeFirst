@@ -1,0 +1,19 @@
+﻿@model UpdateCategoryPageVM
+
+<form asp-controller="Category" asp-action="UpdateCategory" method="post"> 
+
+    <input type="hidden" asp-for = "Category.ID"/>
+
+    <div class="mb-3">
+        <label>Kategori Ismi</label>
+        <input type="text" asp-for="Category.CategoryName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Aciklamasi</label>
+        <textarea asp-for="Category.Description" class="form-control"></textarea>
+    </div>
+
+    <button class=" btn - btn-warning"> Güncelle </button>
+</form>
+
+

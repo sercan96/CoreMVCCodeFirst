@@ -1,0 +1,7 @@
+﻿
+
+İndirilecek Kütüphaneler : 
+- ef core
+- ef core sqlserver ==> sql bağlantısı için gerekli
+- ef core tools
+- ef core proxies ==> virtual ile yazdığımız lazy loading işlemlerinin çalışabilmesi için gereklidir.
